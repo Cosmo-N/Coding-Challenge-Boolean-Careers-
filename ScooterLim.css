@@ -1,0 +1,89 @@
+/* Regole generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Regole body e collegati*/
+body{
+  background-image: url("Immagini-SL/background.jpg");
+  background-size: 100% 100%;
+}
+
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1.5% 18.5% 22.5%;
+  border-radius: 3%;
+  padding: 5%;
+  font-style: Verdana;
+}
+
+/* Regole header e collegati*/
+header{
+  color: rgba(0, 255, 0, 1);
+  text-align: center;
+  font-size: 74%;
+  margin: 4.5% 0% 0.5%;
+}
+
+#Logo{
+  width: 22%;
+  height: auto;
+}
+
+/* Regole nav e collegati*/
+nav{
+  background-color: rgba(0, 255, 0, 1);
+  padding: 1%;
+  text-align: center;
+}
+
+nav > button{
+  font-size: 60%;
+}
+
+/* Regole main */
+main{
+  color: white;
+}
+
+/* Regole section e collegati */
+
+section{
+  margin: 3% 0%;
+  font-size: 12px;
+}
+
+section > h2{
+  display: inline-block;
+}
+
+section > p{
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 1%;
+}
+
+section > div{
+height: 25px;
+margin-top: 0.3%;
+border-radius: 5%;
+}
+
+.Indirizzo:before{
+  content: '\21A6';
+}
+
+#Stato-carica-Gino{
+  background-color: rgba(244, 164, 96, 1);
+  width: 35%;
+}
+
+#Stato-carica-Mike{
+  background-color: rgba(50, 205, 50, 1);
+  width: 60%;
+}
+
+#Stato-carica-Fede{
+  background-color: rgba(165, 42, 42, 1);
+  width: 25%;
+}
